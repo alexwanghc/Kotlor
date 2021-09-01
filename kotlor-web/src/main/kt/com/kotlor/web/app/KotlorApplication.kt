@@ -30,7 +30,7 @@ object KotlorApplication {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val createServer = createServer(8080)
+        val createServer = createServer(8000)
         createServer.apply {
             start()
             join()
